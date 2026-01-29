@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Keep Tailwind available, but use the legacy CSS for pixel-perfect migration. */
