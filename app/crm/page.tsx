@@ -128,7 +128,7 @@ export default function CRMPage() {
 								value={newTaskRef}
 								onChange={(e) => setNewTaskRef(e.target.value)}
 								className="w-full px-2.5 py-1.5 rounded-lg border border-[#E5E7EB] text-sm"
-								placeholder="Ma'lumot"
+								placeholder="Malumot"
 							/>
 						</div>
 
