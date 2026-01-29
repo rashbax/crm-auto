@@ -3,8 +3,8 @@ const nextConfig = {};
 
 const isGithubPages = process.env.GITHUB_PAGES === 'true';
 
-module.exports = {
+export default {
   ...nextConfig,
-  assetPrefix: isGithubPages ? '/<REPO_NAME>/' : '',
-  basePath: isGithubPages ? '/<REPO_NAME>' : '',
+  assetPrefix: isGithubPages ? '/crm-auto/' : '',
+  basePath: isGithubPages ? '/crm-auto' : '',
 };

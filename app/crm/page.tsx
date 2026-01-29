@@ -117,7 +117,7 @@ export default function CRMPage() {
 
             <div>
               <label className="block text-sm text-[#6B7280] mb-1">
-                Ma'lumot
+                Ma&apos;lumot
               </label>
               <input
                 type="text"
