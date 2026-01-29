@@ -37,7 +37,7 @@ export default function CRMPage() {
 		setNewTaskRef('');
 		setNewTaskDue('');
 		setNewTaskNotes('');
-		alert("Vazifa saqlandi va endi yo'qolmaydi ✅");
+		alert('Vazifa saqlandi va endi yoqolmaydi ✅');
 	};
 
 	const handleTaskComplete = (id: string) => {
